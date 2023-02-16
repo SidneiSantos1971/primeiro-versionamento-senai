@@ -1,0 +1,61 @@
+body {
+    background-image: linear-gradient(to right, #c31432, #240b36);
+}
+header {
+    background-color: black;
+    display: flex;
+    border: 1px black solid;
+}
+
+header ul {
+    display: flex;
+}
+
+#logo img {
+    width: 100px;
+}
+
+header ul li {
+    margin-left: 30px;
+    list-style-type: none;
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+header ul li a:hover {
+    color: red;
+    transition: .4s ease-in-out;
+}
+
+main {
+    margin-top: 20px;
+    border: 1px black solid;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+}
+main table {
+    border: 2px solid black;
+    margin: 0 auto;
+}
+main table th {
+    background-color: red;
+    color: white;
+}
+main table tr,td{
+    
+}
+
+#imagem2 {
+    width: 400px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
